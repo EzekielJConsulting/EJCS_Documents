@@ -34,9 +34,9 @@ Run this if you want to test your ui in a web browser
 npm run serve
 ```
 
-## Sending UI Message from Lua
+## Sending NUI Message from Lua
 ```
-SendUIMessage({
+SendNUIMessage({
     event = "function",
     -- [[ whatever arguments/parameters you want here ]]
 })
